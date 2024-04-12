@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nasser">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Quiz"
+            android:textSize="34sp" />
+
+
+        <TextView
+            android:id="@+id/TxtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="00:00:00"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="1. What is the area of Palestine?"
+            android:textSize="24sp"
+           />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+           >
+
+            <RadioButton
+                android:id="@+id/rd1"
+                style="@style/RadioStyle"
+                android:text="10000000Km" />
+
+            <RadioButton
+                android:id="@+id/rd2"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="27006Km" />
+
+            <RadioButton
+
+                android:id="@+id/rd3"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="27000Km" />
+
+            <RadioButton
+
+                android:id="@+id/rd4"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="27004Km" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#82A8AC" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="2. Capital of the State of Palestine :"
+            android:textSize="24sp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            >
+
+            <RadioButton
+                android:id="@+id/rd11"
+                style="@style/RadioStyle"
+                android:text="Jerusalem" />
+
+            <RadioButton
+                android:id="@+id/rd21"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hebron" />
+
+            <RadioButton
+
+                android:id="@+id/rd31"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ramallah" />
+
+            <RadioButton
+
+                android:id="@+id/rd41"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nablus" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#82A8AC" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="3. Capital of the State of Türkiye :"
+            android:textSize="24sp"
+          />
+
+        <RadioGroup
+            android:id="@+id/radioGroup11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            >
+
+            <RadioButton
+                android:id="@+id/rd111"
+                style="@style/RadioStyle"
+                android:text="Izmir" />
+
+            <RadioButton
+                android:id="@+id/rd211"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Antalya" />
+
+            <RadioButton
+                android:id="@+id/rd311"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Istanbul" />
+
+            <RadioButton
+
+                android:id="@+id/rd411"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trabzon" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#82A8AC" />
+
+
+        <TextView
+            android:id="@+id/textView424"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="4. Which city in Palestine, known for its proud(الأبي), generous(الكريم) and courageous(الشجاع) people, located on the Mediterranean Sea, with a climate characterized by hot summers and cold winters, is currently waging a battle against the most horrific occupation(وتخوض حالياً معركة ضد أفظع احتلال)  : "
+            android:textSize="24sp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioGroup111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            >
+
+            <RadioButton
+                android:id="@+id/rd1111"
+                style="@style/RadioStyle"
+                android:text="Gaza" />
+
+            <RadioButton
+                android:id="@+id/rd2111"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaza" />
+
+            <RadioButton
+                android:id="@+id/rd3111"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaza" />
+
+            <RadioButton
+
+                android:id="@+id/rd4111"
+                style="@style/RadioStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaza" />
+
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#82A8AC" />
+
+        <Button
+            android:id="@+id/btngrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:onClick="btnresults"
+            android:text="get Grade" />
+
+        <TextView
+            android:id="@+id/txtres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="48sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

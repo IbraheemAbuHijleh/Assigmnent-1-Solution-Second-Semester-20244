@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assigment # 1</string>
+    <string-array name="List">
+        <item>Information about countries (Location and climate )</item>
+        <item>Quiz</item>
+    </string-array>
+    <string-array name="sep">
+        <item> Palestine </item>
+        <item> Jordan </item>
+        <item> America </item>
+        <item> Türkiye </item>
+        <item> Russia </item>
+        <item> France </item>
+        <item> SouthAfrica </item>
+        <item> Lebanon </item>
+    </string-array>
+</resources>

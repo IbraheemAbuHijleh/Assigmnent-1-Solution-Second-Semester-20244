@@ -39,6 +39,12 @@ public class menue extends AppCompatActivity {
                 }
                 if(position == 1 ){
 
+                    Intent intent=new Intent(menue.this, ActivityShow.class);
+
+                    startActivity(intent);
+                }
+                if(position == 2 ){
+
                     Intent intent=new Intent(menue.this, Quiz.class);
 
                     startActivity(intent);

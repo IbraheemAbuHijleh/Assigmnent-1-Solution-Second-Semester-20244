@@ -2,6 +2,7 @@
     <string name="app_name">Assigment # 1</string>
     <string-array name="List">
         <item>Information about countries (Location and climate )</item>
+        <item>Capitals of Arab countries</item>
         <item>Quiz</item>
     </string-array>
     <string-array name="sep">
@@ -13,5 +14,30 @@
         <item> France </item>
         <item> SouthAfrica </item>
         <item> Lebanon </item>
+    </string-array>
+    <string-array name="ListData">
+        <item>Algeria | Algiers</item>
+        <item>Bahrain | Manama</item>
+        <item>Comoros | Moroni</item>
+        <item>Djibouti | Djibouti City</item>
+        <item>Egypt | Cairo</item>
+        <item>Iraq | Baghdad</item>
+        <item>Jordan | Amman</item>
+        <item>Kuwait | Kuwait City</item>
+        <item>Lebanon | Beirut</item>
+        <item>Libya | Tripoli</item>
+        <item>Mauritania | Nouakchott</item>
+        <item>Morocco | Rabat</item>
+        <item>Oman | Muscat</item>
+        <item>Palestine | East Jerusalem</item>
+        <item>Qatar | Doha</item>
+        <item>Saudi Arabia | Riyadh</item>
+        <item>Somalia | Mogadishu</item>
+        <item>Sudan | Khartoum</item>
+        <item>Syria | Damascus</item>
+        <item>Tunisia | Tunis</item>
+        <item>United Arab Emirates | Abu Dhabi</item>
+        <item>Yemen | Sanaa</item>
+
     </string-array>
 </resources>

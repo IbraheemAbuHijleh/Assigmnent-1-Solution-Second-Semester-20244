@@ -11,14 +11,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:background="#E91E63"
-        android:fontFamily="serif"
         android:text="Welcome to the World of Geography application"
-        android:textSize="34sp" />
+        style="@style/TextStyle" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7th level "
+        style="@style/TextStyle"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -37,7 +38,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="User Name"
+        android:hint="Student Name"
         android:inputType="text"
         android:textColorHint="@color/black" />
 
@@ -48,8 +49,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
+        android:hint="School Nama"
+        android:inputType="text"
         android:textColorHint="#151515" />
 
     <Switch
@@ -67,10 +68,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Login"
+        android:onClick="btnonclick"
+        android:text="Go "
         android:textSize="34sp"
-        android:textStyle="normal|bold|italic"
-        android:onClick="btnonclick"/>
+        android:textStyle="normal|bold|italic" />
 
     <TextView
         android:id="@+id/txtres"

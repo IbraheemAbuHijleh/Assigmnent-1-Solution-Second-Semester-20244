@@ -34,6 +34,8 @@ public class Quiz extends AppCompatActivity {
     private RadioButton rad3 = null ;
     private RadioButton rad4 = null ;
 
+    private boolean Flag=false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +62,8 @@ public class Quiz extends AppCompatActivity {
         choicethree=savedInstanceState.getInt("IDQ3");
 
         choicefour=savedInstanceState.getInt("IDQ4");
+
+        sceond=savedInstanceState.getInt("Second");
 
         rad1 = findViewById(choiceone);
 
@@ -99,7 +103,9 @@ public class Quiz extends AppCompatActivity {
 
                 txt.setText(time);
 
-                sceond++;
+
+
+                    sceond++;
 
                 handler.postDelayed(this, 1000);
             }
@@ -194,5 +200,7 @@ public class Quiz extends AppCompatActivity {
         outState.putInt("IDQ3",choicethree);
 
         outState.putInt("IDQ4",choicefour);
+
+        outState.putInt("Second",sceond);
     }
 }

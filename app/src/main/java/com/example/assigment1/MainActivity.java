@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
      private SharedPreferences save;
      private SharedPreferences.Editor editor;
      public static final String Name="Name";
-    public static final String Pass="Pass";
+    public static final String NameSchool="Pass";
      public static final String Flag="Fales";
 
      private boolean falg=true;
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         if(falg){
             txtname.setText(save.getString(Name,""));
 
-            txtpass.setText(save.getString(Pass,""));
+            txtpass.setText(save.getString(NameSchool,""));
 
             checked.setChecked(true);
         }
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
             editor.putString(Name,name);
 
-            editor.putString(Pass,pass);
+            editor.putString(NameSchool,pass);
 
             editor.putBoolean(Flag,true);
 
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
 
             editor.putString(Name,name);
 
-            editor.putString(Pass,pass);
+            editor.putString(NameSchool,pass);
 
             editor.putBoolean(Flag,true);
 

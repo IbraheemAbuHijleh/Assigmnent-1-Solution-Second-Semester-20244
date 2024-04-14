@@ -41,7 +41,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="School Nama"
+        android:hint="School Name"
         android:inputType="text"
         android:textColorHint="#151515" />
 
